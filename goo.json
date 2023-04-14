@@ -4,47 +4,47 @@
   "createAt": "2023/4/14 上午11:50:54",
   "redirect-rules": [
    {
-        "ajax.googleapis.com": {
+               "src":"ajax.googleapis.com",
             "dstURL": "ajax.loli.net",
             "kind": "wildcard",
             "enable": true
         },
-        "fonts.googleapis.com": {
+         {    "src":"fonts.googleapis.com",
             "dstURL": "fonts.loli.net",
             "kind": "wildcard",
-            "enable": false
+            "enable": true
         },
-        "themes.googleusercontent.com": {
+        {    "src":"themes.googleusercontent.com",
             "dstURL": "themes.loli.net",
             "kind": "wildcard",
             "enable": true
         },
-        "google.com/recaptcha": {
+        {      "src":"google.com/recaptcha", 
             "dstURL": "recaptcha.net/recaptcha",
             "kind": "wildcard",
             "enable": true
         },
-        "fonts.gstatic.com": {
+        {      "src":"fonts.gstatic.com",
             "dstURL": "gstatic.loli.net",
             "kind": "wildcard",
             "enable": false
         },
-        "secure.gravatar.com": {
+        {      "src":"secure.gravatar.com",
             "dstURL": "gravatar.loli.net",
             "kind": "wildcard",
             "enable": true
         },
-        "platform.twitter.com/widgets.js": {
+        {      "src":"platform.twitter.com/widgets.js",
             "dstURL": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/widgets.js",
             "kind": "wildcard",
             "enable": true
         },
-        "apis.google.com/js/api.js": {
+        {      "src":"apis.google.com/js/api.js",
             "dstURL": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/api.js",
             "kind": "wildcard",
             "enable": true
         },
-        "apis.google.com/js/plusone.js": {
+         {     "src":"apis.google.com/js/plusone.js",
             "dstURL": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/plusone.js",
             "kind": "wildcard",
             "enable": true
