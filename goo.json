@@ -49,8 +49,7 @@
             "kind": "wildcard",
             "enable": true
         }
-    }
-  ],
+      ],
   "cancel-rules": [
     {
       "src": "https://click.linksynergy.com/deeplink?",
