@@ -5,47 +5,47 @@
   "redirect-rules": [
    {
                "src":"ajax.googleapis.com",
-            "dstURL": "ajax.loli.net",
+            "dst": "ajax.loli.net",
             "kind": "wildcard",
             "enable": true
         },
          {    "src":"fonts.googleapis.com",
-            "dstURL": "fonts.loli.net",
+            "dst": "fonts.loli.net",
             "kind": "wildcard",
             "enable": true
         },
         {    "src":"themes.googleusercontent.com",
-            "dstURL": "themes.loli.net",
+            "dst": "themes.loli.net",
             "kind": "wildcard",
             "enable": true
         },
         {      "src":"google.com/recaptcha", 
-            "dstURL": "recaptcha.net/recaptcha",
+            "dst": "recaptcha.net/recaptcha",
             "kind": "wildcard",
             "enable": true
         },
         {      "src":"fonts.gstatic.com",
-            "dstURL": "gstatic.loli.net",
+            "dst": "gstatic.loli.net",
             "kind": "wildcard",
             "enable": false
         },
         {      "src":"secure.gravatar.com",
-            "dstURL": "gravatar.loli.net",
+            "dst": "gravatar.loli.net",
             "kind": "wildcard",
             "enable": true
         },
         {      "src":"platform.twitter.com/widgets.js",
-            "dstURL": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/widgets.js",
+            "dst": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/widgets.js",
             "kind": "wildcard",
             "enable": true
         },
         {      "src":"apis.google.com/js/api.js",
-            "dstURL": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/api.js",
+            "dst": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/api.js",
             "kind": "wildcard",
             "enable": true
         },
          {     "src":"apis.google.com/js/plusone.js",
-            "dstURL": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/plusone.js",
+            "dst": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/plusone.js",
             "kind": "wildcard",
             "enable": true
         }
