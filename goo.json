@@ -75,11 +75,6 @@
       "src": "?SubId1=",
       "kind": "wildcard",
       "enable": true
-    },
-    {
-      "src": "209578X1689553X",
-      "kind": "wildcard",
-      "enable": true
     }
   ],
   "request-headers": [],
